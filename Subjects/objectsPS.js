@@ -29,5 +29,11 @@ const anObject2 = {
 let macbookProStorage = mymacbookPro.storage
 console.log(macbookProStorage)
 
+let myAwesomeMac = mymacbookPro['operatingSystem']
+console.log(myAwesomeMac)
+
+
+
+
 
 
