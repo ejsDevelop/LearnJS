@@ -32,6 +32,9 @@ console.log(macbookProStorage)
 let myAwesomeMac = mymacbookPro['operatingSystem']
 console.log(myAwesomeMac)
 
+//20190729
+
+
 
 
 
