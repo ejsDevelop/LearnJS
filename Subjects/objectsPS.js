@@ -32,7 +32,19 @@ console.log(macbookProStorage)
 let myAwesomeMac = mymacbookPro['operatingSystem']
 console.log(myAwesomeMac)
 
-//20190729
+
+// invalid identifier
+const ObjWithInvalidIdentifer = {
+  'First Name': 'Zell'
+}
+
+// invalid must USE bracket notation
+const firstName2 = ObjWithInvalidIdentifer['First Name'] 
+console.log(firstName2)
+
+
+
+
 
 
 
