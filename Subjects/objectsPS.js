@@ -42,11 +42,43 @@ const ObjWithInvalidIdentifer = {
 const firstName2 = ObjWithInvalidIdentifer['First Name'] 
 console.log(firstName2)
 
+// Dot notation
+mymacbookPro.storage = '256gb'
 
+// Bracket notation
+mymacbookPro['usbPorts'] = 2
 
+console.log(mymacbookPro)
 
+delete mymacbookPro.storage
+console.log(mymacbookPro)
 
+// Properties as functions
+function sayName () {}
+sayName.property = 'Hallelujah'
 
+console.log(sayName.property)
+
+//The properties that contain functions as their values are called methods.
+const macbook = {
+  playMusic: function () {
+    /* some code to play music */
+  }
+}
+
+// Calling a method with the dot notation
+macbook.playMusic()
+
+// Calling a method with the bracket notation
+macbook['playMusic']()
+
+const greeter = {
+  sayHello: function (name) {
+    console.log('Hello ' + name + '!')
+  }
+}
+
+greeter.sayHello('Zell')
 
 
 
